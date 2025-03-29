@@ -1,6 +1,7 @@
 local shakeIntensity = 0.2 -- Adjust this value to control the intensity of the camera shake
-local isShaking = false
-local shakeTimer = 0
+---
+local isShaking = false -- Don't touch
+local shakeTimer = 0 -- Don't touch
 
 -- Main thread to check if player is aiming in a vehicle
 Citizen.CreateThread(function()
