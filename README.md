@@ -9,16 +9,11 @@ This FiveM script introduces a camera shake effect when the player aims while in
 - Command to adjust shake intensity in-game.
 
 ## 📂 Installation
-1. Download the `aim_shake.lua` file and place it in your custom FiveM resource folder.
-2. Add the script to your `__resource.lua` or `fxmanifest.lua`:
-
-   ```lua
-   client_script 'aim_shake.lua'
-   ```
-3. Restart the server or reload the resources using `ensure resource_name`.
+1. Download the `vehicle_aim_shake.zip` file and place it in your custom FiveM resource folder.
+2. Restart the server or reload the resources using `ensure vehicle_aim_shake`.
 
 ## ⚙️ Configuration
-In the `aim_shake.lua` file, you can modify the `shakeIntensity` value to adjust the camera shake strength:
+In the `vehicle_aim_shake.lua` file, you can modify the `shakeIntensity` value to adjust the camera shake strength:
 
 ```lua
 local shakeIntensity = 0.2 -- Adjust this value to increase/decrease intensity
